@@ -103,7 +103,7 @@ class _DCState extends State<DC> {
       var newNode = ARNode(
           type: NodeType.webGLB,
           uri:
-              "https://github.com/LaniW/GLBgLTF/blob/main/RiggedHand.glb?raw=true",
+              "https://github.com/yLeah/GLBgLTF/blob/main/RiggedHand.glb?raw=true",
           scale: Vector3(0.1, 0.1, 0.1),
           position: Vector3(0.0, 0.4572, 0.0), //18 Inches -> 0.4572 Meters
           rotation: Vector4(1.0, 0.0, 0.0, 0.0));

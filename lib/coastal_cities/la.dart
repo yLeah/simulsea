@@ -103,7 +103,7 @@ class _LAState extends State<LA> {
       var newNode = ARNode(
           type: NodeType.webGLB,
           uri:
-              "https://github.com/LaniW/GLBgLTF/blob/main/RiggedHand.glb?raw=true",
+              "https://github.com/yLeah/GLBgLTF/blob/main/RiggedHand.glb?raw=true",
           scale: Vector3(0.1, 0.1, 0.1),
           position: Vector3(0.0, 0.3683, 0.0), //14.5 Inches -> 0.3683 Meters
           rotation: Vector4(1.0, 0.0, 0.0, 0.0));

@@ -103,7 +103,7 @@ class _SFState extends State<SF> {
       var newNode = ARNode(
           type: NodeType.webGLB,
           uri:
-              "https://github.com/LaniW/GLBgLTF/blob/main/RiggedHand.glb?raw=true",
+              "https://github.com/yLeah/GLBgLTF/blob/main/RiggedHand.glb?raw=true",
           scale: Vector3(0.1, 0.1, 0.1),
           position: Vector3(0.0, 0.6096, 0.0), //24 Inches -> 0.6096 Meters
           rotation: Vector4(1.0, 0.0, 0.0, 0.0));
