@@ -44,7 +44,13 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const SizedBox(width: 300, height: 300, child: Text("")),
+            Padding(
+              padding: const EdgeInsets.only(bottom: 40.0),
+              child: ClipOval(
+                child: Image.asset('assets/SimulSea_TurtleHacks.jpg',
+                    height: 300, width: 300),
+              ),
+            ),
             SizedBox(
               width: 350,
               height: 60,
