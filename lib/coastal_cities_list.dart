@@ -35,7 +35,7 @@ class CoastalCities extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => const Boston())),
                     child: const Text(
-                      'Boston, MA (from ####)',
+                      'Boston, MA (from 2022)',
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
@@ -54,7 +54,7 @@ class CoastalCities extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => const NewYork())),
                     child: const Text(
-                      'New York, NY (from ####)',
+                      'New York, NY (from 2022)',
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
@@ -71,7 +71,7 @@ class CoastalCities extends StatelessWidget {
                     onPressed: () => Navigator.push(context,
                         MaterialPageRoute(builder: (context) => const DC())),
                     child: const Text(
-                      'Washington, D.C. (from ####)',
+                      'Washington, D.C. (from 2012)',
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
@@ -88,7 +88,7 @@ class CoastalCities extends StatelessWidget {
                     onPressed: () => Navigator.push(context,
                         MaterialPageRoute(builder: (context) => const Miami())),
                     child: const Text(
-                      'Miami, FL (from ####)',
+                      'Miami, FL (from 2012)',
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
@@ -107,7 +107,7 @@ class CoastalCities extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => const Houston())),
                     child: const Text(
-                      'Houston, TX (from ####)',
+                      'Houston, TX (from 2022)',
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
@@ -124,7 +124,7 @@ class CoastalCities extends StatelessWidget {
                     onPressed: () => Navigator.push(context,
                         MaterialPageRoute(builder: (context) => const LA())),
                     child: const Text(
-                      'Los Angeles, CA (from ####)',
+                      'Los Angeles, CA (from 2014)',
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
@@ -141,7 +141,7 @@ class CoastalCities extends StatelessWidget {
                     onPressed: () => Navigator.push(context,
                         MaterialPageRoute(builder: (context) => const SF())),
                     child: const Text(
-                      'San Francisco, CA (from ####)',
+                      'San Francisco, CA (from 2018)',
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
@@ -160,7 +160,7 @@ class CoastalCities extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => const Seattle())),
                     child: const Text(
-                      'Seattle, WA (from ####)',
+                      'Seattle, WA (from 2022)',
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
